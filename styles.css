@@ -15,14 +15,27 @@
     font-family: 'Roboto', sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
 }
 
 .wrapper {
     display: flex;
     align-items: center;
     height: 800px;
+    max-width: 90%;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 2px #DDD;
     overflow:hidden;
 }
 
@@ -46,4 +59,65 @@ body {
 
 .logo-bar img {
     max-height: 100%;
+}
+
+main {
+    height: 100%;
+    max-width: 65%;
+    background-color: #FAFAFA;
+}
+
+.description {
+    padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 33%;
+    font-size: 1.25rem;
+    font-weight: 600;
+    width: 90%
+}
+
+form {
+    height: 77%;
+}
+
+.form-container {
+    background-color: #FFF;
+
+}
+
+.form-container p {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.form-cell {
+
+}
+
+.form-cell label {
+
+}
+
+form input {
+
+}
+
+.button-area {
+
+}
+
+.button-area a {
+
+}
+
+button{
+    background-color: #596D48;
 }
